@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: teste2-thy
+  host: teste2-thy
+  disk_quota: 1024M
+  services:
+  - teste2-thy-personality_insights
