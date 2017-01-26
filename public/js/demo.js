@@ -297,7 +297,7 @@ function showVizualization(theProfile) {
 
       // The flower had a radius of 640 / 1.9 = 336.84 in the original, now is 3.2.
       var radius = Math.min(width, height) / 16.58; // For 640 / 1.9 -> r = 65
-      var scaled_w = radius * 2.46; // r = 65 -> w = 160
+      var scaled_w = radius * 1.0; // r = 65 -> w = 160
 
       var id = 'user_icon_' + this.id;
       icon_defs.append('pattern')
