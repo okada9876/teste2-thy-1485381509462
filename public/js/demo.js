@@ -201,7 +201,7 @@ $(document).ready(function() {
   function showTextSummary(data) {
     console.log('showTextSummary()');
     var paragraphs = textSummary.assemble(data.tree);
-    var div = $('.summary-div'+' t');
+    var div = $('.summary-div');
     $('.outputMessageFootnote').text(data.word_count_message ? '**' + data.word_count_message + '.' : '');
     div.empty();
     paragraphs.forEach(function(sentences) {
